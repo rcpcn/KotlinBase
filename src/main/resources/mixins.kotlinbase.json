@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "club.cafedevelopment.kotlinbase.api.mixin.mixins",
+  "refmap": "mixins.kotlinbase.refmap.json",
+  "mixins": [
+    "MixinNetworkManager"
+  ]
+}
