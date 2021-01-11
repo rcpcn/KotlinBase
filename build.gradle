@@ -43,7 +43,7 @@ repositories {
 
 dependencies {
     compile 'club.minnced:java-discord-rpc:2.0.1' // RPC.
-    compile 'com.github.CafeDevelopment:Blitz:2.0-SNAPSHOT' // Blitz.
+    compile 'com.github.CafeDevelopment:Blitz:3.0-SNAPSHOT' // Blitz.
     compile 'com.github.CafeDevelopment:Venture:2.0-SNAPSHOT' // Venture.
     compile 'com.googlecode.json-simple:json-simple:1.1.1' // Json.
     compile 'javassist:javassist:3.12.1.GA' // Javassist.
@@ -79,7 +79,7 @@ shadowJar {
         include(dependency('org.jetbrains.kotlin:kotlin-stdlib-jdk8'))
         include(dependency('org.spongepowered:mixin'))
         include(dependency('club.minnced:java-discord-rpc:2.0.1'))
-        include(dependency('com.github.CafeDevelopment:Blitz:2.0-SNAPSHOT'))
+        include(dependency('com.github.CafeDevelopment:Blitz:3.0-SNAPSHOT'))
         include(dependency('com.github.CafeDevelopment:Venture:2.0-SNAPSHOT'))
         include(dependency('com.googlecode.json-simple:json-simple:1.1.1'))
         include(dependency('org.reflections:reflections:0.9.12'))
